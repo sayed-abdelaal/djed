@@ -1,0 +1,36 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+@media (min-width: 300px) {
+  .impact.img {
+    max-width: 85px;
+    margin-bottom: 4px;
+  }
+}
+
+@media (min-width: 768px) {
+  .impact.img {
+    max-width: 105px;
+    margin-bottom: 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  .impact.img {
+    max-width: 125px;
+  }
+}
+
+@media (min-width: 300px) {
+  .hero-top {
+    height: 450px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-top {
+    height: 600px;
+  }
+}
+
